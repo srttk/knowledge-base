@@ -3,6 +3,13 @@
 
 ### Shutdown
 
+The “uname” command stands for (Unix Name), print detailed information about the machine name, Operating System and Kernel.
+
+```bash
+$ uname -a
+```
+
+
 Shutdown the system and turn the power off immediately
 
 ``` bash 
