@@ -342,6 +342,12 @@ GIT_PS1_SHOWUPSTREAM="auto"
 export GIT_PS1_SHOWUPSTREAM
 ```
 
+### Create Branch From Existing Branch
+
+```bash
+$ git checkout -b <newbranchname> <existingbranchname>
+```
+
 ## Rewrite commiter history
 
 In case of comitting with a wrong user configuration, maybe not from your own computer, there is a last resort to rewrite commiter information.
