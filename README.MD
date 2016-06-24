@@ -1,5 +1,6 @@
-# CASE FILES
-## Personal knowledge base 
+# KnowledgeBase
+
+Personal knowledge base 
 
 
 
@@ -7,5 +8,7 @@
 + Git
 + SSH
 + npm
++ Laravel
++ MySql
 
 

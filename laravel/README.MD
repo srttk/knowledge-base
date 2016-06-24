@@ -1,4 +1,4 @@
-### Laravel
+# Laravel
 
 #### Install via Composer
 

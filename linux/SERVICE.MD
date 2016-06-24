@@ -1,4 +1,4 @@
-### SERVICE
+# SERVICE
 
 Check the status of a service:
 
