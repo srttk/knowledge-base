@@ -26,6 +26,11 @@ Holds the definition of a package, with its dependencies
 npm init
 ```
 
+### Initialization without prompt any inputs
+```bash
+npm init -y
+```
+
 ### Install
 
 ```bash

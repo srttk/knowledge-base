@@ -1,3 +1,5 @@
+<!-- $theme: gaia -->
+
 # KnowledgeBase
 
 Personal knowledge base 
