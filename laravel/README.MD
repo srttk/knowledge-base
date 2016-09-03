@@ -24,16 +24,16 @@ php artisan routes
 php artisan serve
 ```
 ##### Change the default port
-```bash 
+```bash
 php artisan serve --port 8080
 ```
 
 ##### Interact with your application
-```bash 
+```bash
 php artisan tinker
 ```
 ##### Flush the application cache
-```bash 
+```bash
 php artisan cache:clear
 ```
 ##### Database migrations
@@ -41,8 +41,36 @@ php artisan cache:clear
 php artisan migrate [--bench="vendor/package"] [--database[="..."]] [--path[="..."]] [--package[="..."]] [--pretend] [--seed]
 ```
 
-##### Create a new migration file
+### Create a new migration file
 ```bash
 php artisan migrate:make name
 ```
 
+
+## DB Seed
+
+### Create Seed
+```bash
+php artisan make:seed UserTableSeed
+```
+
+### Running All Seed
+```bash
+php artisan db:seed
+```
+
+### Running A Specific Seeder class
+
+```bash
+php artisan db:seed --class=UserTableSeed
+```
+
+## Model
+### New Model
+```bash
+php artisan make:model <modelname>
+```
+### Generate Model with  Migration
+```bash
+php artisan make:model <modelname> -m
+```
