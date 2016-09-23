@@ -342,12 +342,6 @@ GIT_PS1_SHOWUPSTREAM="auto"
 export GIT_PS1_SHOWUPSTREAM
 ```
 
-### Create Branch From Existing Branch
-
-```bash
-$ git checkout -b <newbranchname> <existingbranchname>
-```
-
 ## Rewrite commiter history
 
 In case of comitting with a wrong user configuration, maybe not from your own computer, there is a last resort to rewrite commiter information.
@@ -363,3 +357,6 @@ git push --force --tags origin 'refs/heads/*'
 
 And delete the fresh copy of the repository as it's not needed any more
 
+
+## Reference
+[Atlassian Tutorial](https://www.atlassian.com/git/tutorials/what-is-version-control)
