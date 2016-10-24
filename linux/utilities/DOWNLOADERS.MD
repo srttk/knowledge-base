@@ -15,6 +15,12 @@ wget -r --convert-links <url>
 wget <url> -O outputfilename.ext
 ```
 
+### Wget adjust extension
+
+```bash
+wget --adjust-extension <url> 
+```
+
 ### Youtube-dl
 
 ```bash
