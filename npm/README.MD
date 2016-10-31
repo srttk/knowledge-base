@@ -98,3 +98,8 @@ npm update [package-name]
   }
 }
 ```
+
+## Clean Cache
+```bash
+npm cache clean
+```

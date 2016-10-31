@@ -9,3 +9,9 @@ npm install webpack-dev-server -g
 ```bash
 webpack-dev-server --content-base src --inline --hot
 ```
+
+### Custom config file
+
+```bash
+webpack --config ./webpack.config.dev.js
+```
