@@ -5,9 +5,15 @@
 ```bash
 wget <url>
 
+### Bipass SSL Connection
+```bash
+wget --no-check-certificate <url>
 ```
+
 ### Wget Magic
+```bash
 wget -r --convert-links <url>
+```
 
 ### Wget Output file
 
@@ -18,7 +24,7 @@ wget <url> -O outputfilename.ext
 ### Wget adjust extension
 
 ```bash
-wget --adjust-extension <url> 
+wget --adjust-extension <url>
 ```
 
 ### Youtube-dl
