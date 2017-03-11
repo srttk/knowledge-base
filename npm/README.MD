@@ -69,6 +69,22 @@ npm uninstall package-name
 npm update [package-name]
 ```
 
+### Show package versions
+```bash
+npm view [pakage-name] verions
+```
+
+### Show package versions in json format
+```bash
+npm view [packsge-name] versions --json
+
+```
+
+### Install a specific version 
+```bash
+npm install [package-name]@2.0.0
+```
+
 ## Package.json example
 
 ```json
