@@ -1,6 +1,14 @@
 # MongoDB
 
 
+### Set DB path
+```
+mongod --dbpath F:\org\mongo\data
+```
+
+
+## Install Service D:\Program Files\MongoDB\Server\3.4
+mongod --config f:\org\mongo\mongod.cfg --install
 ### Create user and assign permissions
 
 ```Shell
