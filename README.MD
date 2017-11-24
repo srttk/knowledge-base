@@ -13,5 +13,6 @@ Personal knowledge base
 + [npm](https://github.com/saratonite/knowledge-base/tree/master/npm)
 + [Laravel](https://github.com/saratonite/knowledge-base/tree/master/laravel)
 + [MySql](https://github.com/saratonite/knowledge-base/tree/master/mysql)
++ [Editors](https://github.com/saratonite/knowledge-base/tree/master/editors)
 
 
